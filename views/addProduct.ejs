@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1><%= message %></h1>
+    <form action="/addProduct" method="post">
+        <input type="text" placeholder="product name" name="productName"><br><br>
+        <input type="text" placeholder="product price" name="productPrice"><br> <br>
+        <input type="text" placeholder="product image" name="productImage"><br> <br>
+        <input type="text" placeholder="product quantity" name="productQuantity"><br> <br>
+
+        <button type="submit">Submit Product</button>
+    </form>
+
+</body>
+</html>
