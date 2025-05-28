@@ -130,6 +130,10 @@ const products = [
     }
 ]
 
+app.get('/', (req,res)=>{
+    res.send('app working fine')
+})
+
 app.get('/makins', (req, res) => {
 
     res.render('index')
